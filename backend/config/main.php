@@ -8,6 +8,9 @@ $params = array_merge(
 
 return [
     'id' => 'app-backend',
+    //M. Zuhri Wijianto
+    'name' => 'Admin Toko Baru',
+    'defaultRoute' => 'site/index',
     'basePath' => dirname(__DIR__),
     'controllerNamespace' => 'backend\controllers',
     'bootstrap' => ['log'],
